@@ -1,0 +1,32 @@
+{
+    "name": "@nyaacinth/utils",
+    "version": "0.0.1",
+    "description": "Utilities for ECMAScript",
+    "license": "MIT",
+    "homepage": "https://github.com/Nyaacinth/es-utils#README",
+    "repository": "https://github.com/Nyaacinth/es-utils",
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.cjs",
+            "import": "./dist/index.mjs"
+        }
+    },
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "unbuild",
+        "stub": "unbuild --stub",
+        "publish-to-npm": "pnpm publish --registry=https://registry.npmjs.org --access public"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.8",
+        "prettier-plugin-organize-imports": "^3.2.2",
+        "unbuild": "^1.2.1"
+    }
+}

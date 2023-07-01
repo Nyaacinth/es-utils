@@ -1,0 +1,53 @@
+{
+    "tab_size": 4,
+    "language_overrides": {
+        "TypeScript": {
+            "format_on_save": {
+                "external": {
+                    "command": "node_modules/.bin/prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            }
+        },
+        "TSX": {
+            "format_on_save": {
+                "external": {
+                    "command": "node_modules/.bin/prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            }
+        },
+        "JavaScript": {
+            "format_on_save": {
+                "external": {
+                    "command": "node_modules/.bin/prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            }
+        },
+        "HTML": {
+            "format_on_save": {
+                "external": {
+                    "command": "node_modules/.bin/prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            }
+        },
+        "CSS": {
+            "format_on_save": {
+                "external": {
+                    "command": "node_modules/.bin/prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            }
+        },
+        "JSON": {
+            "format_on_save": {
+                "external": {
+                    "command": "node_modules/.bin/prettier",
+                    "arguments": ["--stdin-filepath", "{buffer_path}"]
+                }
+            }
+        }
+    }
+}
